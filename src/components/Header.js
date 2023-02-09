@@ -6,6 +6,7 @@ const SCHeader = styled.header`
   display: flex;
   justify-content: space-between;
   background-color: #778899;
+  
 
   @media (max-width: 550px) {
     flex-direction: column;
@@ -24,7 +25,7 @@ const SCMenuList = styled.div`
 `;
 
 const SCLogo = styled.img`
-  width: 30%;
+  width: 20%;
   border-radius: 100%;
 `;
 const SCDivLogo = styled.div`
@@ -32,7 +33,7 @@ const SCDivLogo = styled.div`
 `;
 
 const SCLinkItem = styled.div`
-  padding: 25px;
+  padding-right: 45px;
 
 `;
 const SCAhref = styled.a`
@@ -44,12 +45,19 @@ const SCAhref = styled.a`
 `;
 const SCFullHeader = styled.div`
 
-
+padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #4fb99f;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
 `;
 
 function Header() {
   return (
-    <div className="fullHeader">
+    <SCFullHeader className="fullHeader" id="header" >
       <SCHeader>
         <SCDivLogo className="logo">
           <a href="">
@@ -65,17 +73,20 @@ function Header() {
             <SCAhref href="#anasayfa">Anasayfa</SCAhref>
           </SCLinkItem>
           <SCLinkItem className="linkItem">
-            <SCAhref href="#hakkimda">Hakkımda</SCAhref>
+            <SCAhref href="#yetenekler">Yetenekler</SCAhref>
           </SCLinkItem>
           <SCLinkItem className="linkItem">
-            <SCAhref href="#projeler">Projelerim</SCAhref>
+            <SCAhref href="#profil">Profil</SCAhref>
           </SCLinkItem>          
+          <SCLinkItem className="linkItem">
+            <SCAhref href="#projeler">Projeler</SCAhref>
+          </SCLinkItem>
           <SCLinkItem className="linkItem">
             <SCAhref href="#iletisim">İletişim </SCAhref>
           </SCLinkItem>
         </SCMenuList>
       </SCHeader>
-    </div>
+    </SCFullHeader>
   );
 }
 

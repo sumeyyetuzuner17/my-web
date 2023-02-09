@@ -70,7 +70,7 @@ padding: 25px;
 function Skill() {
   return (
     <SCSkillDis>
-      <SCPSkill className="skill">Skills</SCPSkill>
+      <SCPSkill className="skill" id="yetenekler">Skills</SCPSkill>
       <SCIkonlar className="ikonlar">
         <SCIkonlar1 className="ikonlar1">
           <SCIkonItem className="react">

@@ -69,7 +69,7 @@ const SCYazi = styled.div`
 function Footer() {
   return (
     <div>
-      <SCAciklama className="aciklama">
+      <SCAciklama className="aciklama" id="iletisim">
         <SCAciklama1 className="aciklamaH1"> BANA ULAŞIN!</SCAciklama1>
         <SCYazi>
           Aklına takılan bir soruyu sormak ya da "Merhaba!" demek için <br />

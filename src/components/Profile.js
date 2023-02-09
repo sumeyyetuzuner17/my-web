@@ -47,7 +47,7 @@ const SCAbout = styled.div`
 function Profile() {
   return (
     <SCProfileDiv>
-      <h2
+      <h2 id="profil"
         style={{
           paddingLeft: "245px",
           paddingTop: "85px",
