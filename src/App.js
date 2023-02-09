@@ -10,8 +10,8 @@ import Skill from "./components/Skill";
 function App() {
   return (
     <div>
-      <Header />
-      <Hakkimda/>
+      <Header /><br/><br/><br/><br/>
+      <Hakkimda/><br/>
       <Skill/>
       <Profile/>
       <Projects/>

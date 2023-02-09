@@ -20,7 +20,7 @@ const SCSkillDis = styled.div`
   width: 960px;
   height: 450px;
   margin-left: 239px;
-  margin-top: 0px;
+  margin-top: 20px;
 `;
 const SCPSkill = styled.p`
   width: 100px;
@@ -69,8 +69,8 @@ padding: 25px;
 
 function Skill() {
   return (
-    <SCSkillDis>
-      <SCPSkill className="skill" id="yetenekler">Skills</SCPSkill>
+    <SCSkillDis id="yetenekler">
+      <SCPSkill className="skill" >Skills</SCPSkill>
       <SCIkonlar className="ikonlar">
         <SCIkonlar1 className="ikonlar1">
           <SCIkonItem className="react">

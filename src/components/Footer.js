@@ -38,7 +38,7 @@ const SCFooter = styled.footer`
 const SCIletisim = styled.div`
   display: flex;
   justify-content: center;
-  background-color: azure;
+  background-color: white;
   
   @media (max-width: 550px) {
     flex-direction: column;
@@ -52,7 +52,7 @@ const SCIletisimItem = styled.div`
 `;
 const SCAciklama = styled.div`
   text-align: center;
-  background-color: azure;
+  background-color: white;
 `;
 const SCAciklama1 = styled.h1`
   text-align: center;
