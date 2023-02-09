@@ -6,7 +6,7 @@ import {
   FaCss3Alt,
   FaJs,
   FaFigma,
-  FaNodeJs,
+  FaNode,
 } from "react-icons/fa";
 
 const SCSkillDis = styled.div`
@@ -16,7 +16,7 @@ const SCSkillDis = styled.div`
   align-items: flex-start;
   padding: 0px;
   background-color: white;
-  position: absolute;
+
   width: 960px;
   height: 450px;
   margin-left: 239px;
@@ -91,7 +91,7 @@ function Skill() {
           <FaFigma size={65} color="FF6666"/>Figma
         </SCIkonItem>
         <SCIkonItem className="node">
-          <FaNodeJs size={65}/>Node.js
+          <FaNode size={65}/>Node.js
         </SCIkonItem>
         </SCIkonlar2>
         

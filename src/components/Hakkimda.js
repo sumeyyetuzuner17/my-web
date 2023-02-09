@@ -9,6 +9,8 @@ const SCMorcivert = styled.div`
   margin-top: 0px;
 
   background: #4731d3;
+
+ 
 `;
 const SCInfoImg = styled.div`
   display: flex;
@@ -27,7 +29,6 @@ const SCInfoImg = styled.div`
 const SCImg = styled.img`
   width: 250px;
   height: 300.89px;
-  background: url(https://media.licdn.com/dms/image/C4D03AQG8XDW4D2BrNA/profile-displayphoto-shrink_200_200/0/1652622538544?e=1680739200&v=beta&t=xCLn5AEHLi0PNjJSRF_lUVaF-Q1wrowcftyyxdZh97s);
   background-repeat: no-repeat;
   /* YO */
 
@@ -117,7 +118,7 @@ function Hakkimda() {
             </SCBilgi2>
           </SCKisaBilg>
 
-          <SCImg className="Img"></SCImg>
+          <SCImg className="Img" src="https://media.licdn.com/dms/image/C4D03AQG8XDW4D2BrNA/profile-displayphoto-shrink_200_200/0/1652622538544?e=1680739200&v=beta&t=xCLn5AEHLi0PNjJSRF_lUVaF-Q1wrowcftyyxdZh97s"></SCImg>
         </SCInfoImg>
       </SCMorcivert>
       <SCYesil className="yesil">

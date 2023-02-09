@@ -3,6 +3,8 @@ import React from "react";
 import Footer from "./components/Footer";
 import Hakkimda from "./components/Hakkimda";
 import Header from "./components/Header";
+import Profile from "./components/Profile";
+import Projects from "./components/Projects";
 import Skill from "./components/Skill";
 
 function App() {
@@ -10,7 +12,9 @@ function App() {
     <div>
       <Header />
       <Hakkimda/>
-      <Skill/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <Skill/>
+      <Profile/>
+      <Projects/>
       <Footer />
     </div>
   );
