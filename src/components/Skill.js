@@ -26,6 +26,7 @@ const SCSkillDis = styled.div`
     flex-direction: column;
     height: 800px;
     margin-left: 140px;
+   
   }
 `;
 const SCPSkill = styled.p`
@@ -45,15 +46,15 @@ const SCPSkill = styled.p`
 
   /* Inside auto layout */
 
-  flex: none;
+  /* flex: none;
   order: 0;
-  flex-grow: 0;
+  flex-grow: 0; */
   
   @media (max-width: 550px) {
     font-size: 28px;
     width: 50px;
   height: 15px;
- 
+
   }
 `;
 
@@ -67,16 +68,16 @@ margin-right: 100px;
 @media (max-width: 550px) {
     flex-direction: column;
     width: 25px;
-    
+   
   }
 `
 const SCIkonlar1=styled.div`
 margin-top: 55px;
 margin-right: 25px;
 @media (max-width: 550px) {
-    flex-direction: column;
+    display: flex;
     width: 25px; 
-    margin-top: 15px;
+   
   }
 `
 
@@ -84,8 +85,9 @@ const SCIkonlar2=styled.div`
 margin-left: 25px;
 margin-top: 55px;
 @media (max-width: 550px) {
-    flex-direction: column;
+    display: flex;
     width: 25px;    
+    margin-left: 0px;
     
   }
 

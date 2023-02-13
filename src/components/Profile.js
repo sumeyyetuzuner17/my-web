@@ -5,6 +5,10 @@ const SCProfileDiv = styled.div`
   background-color: #4731d3;
   width: 1500px;
   height: 600px;
+  @media (max-width: 550px) {
+            
+  height: 1000.68px;
+  }
 `;
 const SCInfoImgAbout = styled.div`
   display: flex;
@@ -18,6 +22,15 @@ const SCInfoImgAbout = styled.div`
   height: 290.68px;
   margin-left: 240px;
   margin-top: 10px;
+  @media (max-width: 550px) {
+    
+    flex-direction:column;
+    height: 800px;
+    margin-left: 0px;
+    gap: 0px;
+    width: 475px;
+  height: 200.68px;
+  }
 `;
 
 const SCImg = styled.img`
@@ -42,6 +55,8 @@ const SCAbout = styled.div`
   margin-top: 10px;
   margin-left: 45px;
   color: white;
+  display: flex;
+ 
 `;
 
 function Profile() {
