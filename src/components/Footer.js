@@ -66,9 +66,15 @@ const SCYazi = styled.div`
   font-style: italic;
   margin-bottom: 20px;
 `;
+
+const SCEnDis=styled.div`
+ @media (max-width: 550px) {
+   text-align: center;
+  }
+`
 function Footer() {
   return (
-    <div>
+    <SCEnDis className="endis">
       <SCAciklama className="aciklama" id="iletisim">
         <SCAciklama1 className="aciklamaH1"> BANA ULAŞIN!</SCAciklama1>
         <SCYazi>
@@ -141,7 +147,7 @@ function Footer() {
           hakları saklıdır.
         </SCP>
       </SCFooter>
-    </div>
+    </SCEnDis>
   );
 }
 

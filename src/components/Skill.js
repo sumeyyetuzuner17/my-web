@@ -26,7 +26,6 @@ const SCSkillDis = styled.div`
     flex-direction: column;
     height: 800px;
     margin-left: 140px;
-   
   }
 `;
 const SCPSkill = styled.p`
@@ -49,88 +48,84 @@ const SCPSkill = styled.p`
   /* flex: none;
   order: 0;
   flex-grow: 0; */
-  
-  @media (max-width: 550px) {
-    font-size: 28px;
-    width: 50px;
-  height: 15px;
 
+  @media (max-width: 550px) {
+    /* font-size: 28px;
+    width: 50px; */
+    /* display: none; */
   }
 `;
 
+const SCIkonlar = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
 
-
-const SCIkonlar=styled.div`
-display: flex;
-justify-content: center;
-margin-right: 100px;
-
-@media (max-width: 550px) {
+  @media (max-width: 550px) {
     flex-direction: column;
     width: 25px;
-   
   }
-`
-const SCIkonlar1=styled.div`
-margin-top: 55px;
-margin-right: 25px;
-@media (max-width: 550px) {
+`;
+const SCIkonlar1 = styled.div`
+  margin-top: 55px;
+  margin-right: 25px;
+  @media (max-width: 550px) {
     display: flex;
-    width: 25px; 
-   
+    width: 25px;
   }
-`
+`;
 
-const SCIkonlar2=styled.div`
-margin-left: 25px;
-margin-top: 55px;
-@media (max-width: 550px) {
+const SCIkonlar2 = styled.div`
+  margin-left: 25px;
+  margin-top: 55px;
+  @media (max-width: 550px) {
     display: flex;
-    width: 25px;    
+    width: 25px;
     margin-left: 0px;
-    
   }
+`;
 
-`
-
-const SCIkonItem=styled.div`
-padding: 25px;
-@media (max-width: 550px) {
-   width: 25px;
-   height: 40px;
-    
+const SCIkonItem = styled.div`
+  padding: 25px;
+  @media (max-width: 550px) {
+    width: 25px;
+    height: 40px;
   }
-`
-
+`;
 
 function Skill() {
   return (
     <SCSkillDis id="yetenekler">
-      <SCPSkill className="skill" >Skills</SCPSkill>
+      <SCPSkill className="skill">Skills</SCPSkill>
       <SCIkonlar className="ikonlar">
         <SCIkonlar1 className="ikonlar1">
           <SCIkonItem className="react">
-            <FaReact size={65} color="blue"/>React
+            <FaReact size={65} color="blue" />
+            React
           </SCIkonItem>
           <SCIkonItem className="html">
-            <FaHtml5 size={65}/>Html5
+            <FaHtml5 size={65} />
+            Html5
           </SCIkonItem>
           <SCIkonItem className="css">
-            <FaCss3Alt size={65}/>CSS3
+            <FaCss3Alt size={65} />
+            CSS3
           </SCIkonItem>
         </SCIkonlar1>
         <SCIkonlar2 className="ikonlar2">
-        <SCIkonItem className="js">
-          <FaJs size={65} color="#FFCC00"/>JavaScript
-        </SCIkonItem>
-        <SCIkonItem className="figma">
-          <FaFigma size={65} color="FF6666"/>Figma
-        </SCIkonItem>
-        <SCIkonItem className="node">
-          <FaNode size={65}/>Node.js
-        </SCIkonItem>
+          <SCIkonItem className="js">
+            <FaJs size={65} color="#FFCC00" />
+            JavaScript
+          </SCIkonItem>
+          <SCIkonItem className="figma">
+            <FaFigma size={65} color="FF6666" />
+            Figma
+          </SCIkonItem>
+          <SCIkonItem className="node">
+            <FaNode size={65} />
+            Node.js
+          </SCIkonItem>
         </SCIkonlar2>
-        
       </SCIkonlar>
     </SCSkillDis>
   );

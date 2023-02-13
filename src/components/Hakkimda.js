@@ -9,6 +9,7 @@ const SCMorcivert = styled.div`
   margin-top: 0px;
 
   background: #4731d3;
+ 
 
  
 `;
@@ -24,7 +25,7 @@ const SCInfoImg = styled.div`
   height: 250.89px;
   left: 239px;
   margin-top: 130px;
-  
+ 
 `;
 const SCImg = styled.img`
   width: 250px;

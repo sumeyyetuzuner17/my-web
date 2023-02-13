@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import FirstPart from "./components/FirstPart";
 // import { Route,Switch } from 'react-router-dom';
 import Footer from "./components/Footer";
@@ -8,9 +9,20 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skill from "./components/Skill";
 
+
+// const SCAllPage=styled.div`
+//  @media (max-width: 550px) {    
+   
+//   padding-left: 0px;
+    
+//   }
+
+// `
+
+
 function App() {
   return (
-    <div>
+    <div className="allPage">
       <Header />
       <br />
       <br />

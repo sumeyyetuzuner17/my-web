@@ -30,6 +30,7 @@ const SCInfoImgAbout = styled.div`
     gap: 0px;
     width: 475px;
   height: 200.68px;
+  font-size: small;
   }
 `;
 
@@ -49,6 +50,13 @@ const SCImg = styled.img`
   flex: none;
   order: 1;
   flex-grow: 0;
+
+  @media (max-width: 550px) {
+    width: 200px;
+  height: 180.68px;
+    
+   
+  }
 `;
 
 const SCAbout = styled.div`
@@ -56,13 +64,28 @@ const SCAbout = styled.div`
   margin-left: 45px;
   color: white;
   display: flex;
- 
+  @media (max-width: 550px) {
+   padding-left: 0px;
+   font-size: small;
+  }
 `;
+
+const SCH2=styled.h2`
+@media (max-width: 550px) {
+   padding-left: 0px;
+   
+  }
+`
+const SCInfo=styled.div`
+color: white;
+
+`
+
 
 function Profile() {
   return (
     <SCProfileDiv>
-      <h2 id="profil"
+      <SCH2 id="profil"
         style={{
           paddingLeft: "245px",
           paddingTop: "85px",
@@ -73,9 +96,9 @@ function Profile() {
         }}
       >
         Profile
-      </h2>
+      </SCH2>
       <SCInfoImgAbout className="infoImgAbout" style={{ display: "flex" }}>
-        <div className="info" style={{ marginTop: "10px" }}>
+        <SCInfo className="info" style={{ marginTop: "10px" }}>
           <h3>Basic Information</h3>
 
           <p>Doğum Tarihi: 14.11.1991</p>
@@ -92,7 +115,7 @@ function Profile() {
           <p style={{ display: "flex" }}>
             Tercih Ettiği Rol : <div>Frontend Developer</div>
           </p>
-        </div>
+        </SCInfo>
         <div className="img">
           <SCImg
             src="https://scontent.fsaw1-14.fna.fbcdn.net/v/t1.18169-9/945597_4947817585463_1845554503_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=de6eea&_nc_ohc=Ag19HuPOhEMAX-UuUw3&_nc_ht=scontent.fsaw1-14.fna&oh=00_AfCn2nAJIk91f3Fw3Vxb-bNULbct7QltBYiNPl-HnpnwHg&oe=640C4F29"

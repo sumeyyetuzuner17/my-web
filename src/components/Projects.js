@@ -8,18 +8,19 @@ const SCProjeler = styled.div`
   margin-top: 2px;
 
   @media (max-width: 550px) {    
-    height: 1400px;
+    height: 900px;
+    
   }
  
 `;
 
 const SCProjeItem = styled.div`
   display: flex;
-  align-self: center;
+  /* align-self: center; */
 
   @media (max-width: 550px) {
     flex-direction: column;  
-    
+  
   }
 `;
 
@@ -31,21 +32,21 @@ const SCImg = styled.img`
     flex-direction: column;  
     width: 205px;
   height: 200px;
+
   }
 `;
 
 const SCP=styled.p`
  @media (max-width: 550px) {
-    flex-direction: column;  
+    /* flex-direction: column;  
     font-size: small;
     text-align: start;
-    width: 200px;
+    width: 200px; */
+    display: none;
   }
 
 `
-const SCMedia=styled.div`
-margin-left: "100px";
-`
+
 
 
 function Projects() {

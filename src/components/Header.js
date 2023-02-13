@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+// import {FaBars} from "react-icons/fa"
 const SCHeader = styled.header`
 
   display: flex;
@@ -18,18 +18,26 @@ const SCMenuList = styled.div`
   display: flex;
   margin-top: 20px;
   margin-right: 20px;
+
   @media (max-width: 550px) {
-    flex-direction: column;
-    align-items: center;
+    display: none;
+    text-align: center;
+   
   }
 `;
 
 const SCLogo = styled.img`
   width: 20%;
   border-radius: 100%;
+  @media (max-width: 550px) {
+   text-align: center;
+  }
 `;
 const SCDivLogo = styled.div`
   margin: 10px 0px 10px 30px;
+  @media (max-width: 550px) {
+   text-align: center;
+  }
 `;
 
 const SCLinkItem = styled.div`
