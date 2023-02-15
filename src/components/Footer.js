@@ -109,9 +109,10 @@ function Footer() {
         <SCIletisimItem className="iletisimItem">
           <FaMailBulk size={30} color="#4169E1" />
           <p>
-            sumeyyedeniz34@gmail.com
+          <a href="mailto:sumeyyedeniz34@gmail.com">sumeyyedeniz34@gmail.com</a>
             <br />
-            sumeyyedeniz@windowslive.com{" "}
+            <a href="mailto:sumeyyedeniz@windowslive.com">sumeyyedeniz@windowslive.com</a>
+           
           </p>
         </SCIletisimItem>
       </SCIletisim>
