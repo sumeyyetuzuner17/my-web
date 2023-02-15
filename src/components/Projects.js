@@ -34,10 +34,7 @@ const SCImg = styled.img`
 
 const SCP = styled.p`
   @media (max-width: 550px) {
-    /* flex-direction: column;  
-    font-size: small;
-    text-align: start;
-    width: 200px; */
+   
     display: none;
   }
 `;
@@ -171,24 +168,20 @@ function Projects() {
         <SCProjeItem className="projeItem">
           <div className="projeImg">
             <SCImg
-              src="https://github.com/sumeyyetuzuner17/fsweb-s10g1-reducer-calculator/raw/main/proje-hedefi.gif"
+              src="https://media.istockphoto.com/id/873511438/tr/vekt%C3%B6r/karikat%C3%BCr-teslimat-scooter-pizza-chef.jpg?s=612x612&w=is&k=20&c=UDGWUTB7E2tCPYA8-i9OHb1gl7I0tANuDievwtNRFGs="
               alt=""
             />
           </div>
           <div className="projeDesc" style={{ paddingLeft: "20px" }}>
-            <p>WORKINTECH</p>
+            <p>WORKINTECH-PİZZA</p>
             <SCP>
-              Bu projede, sayıları herhangi bir sırayla toplayabilen, çarpabilen
-              ve çıkartabilen,ayrıca
-              <br />
-              hafızaya kaydetme ve callback özellikleri ekleyebilen basit bir
-              hesap makinesi uygulaması <br />
-              oluşturulmuştur. Koda eksik parçaları ekleyerek başlayıp ve UI,
-              reducer ve event dosyalarında <br />
-              sıfırdan özellikler oluşturarak proje tamamlanmak üzeredir. Bu
-              hesap makinesi bildiklerimizden <br />
-              biraz farklı. Her yeni hesaplamasında önceki hesabın sonucunu ve
-              yeni bir sayıyı parametre olarak almaktadır.
+            Bu challenge, sprint boyunca öğrenilen kavramları ve teknikleri 
+             uygulamamıza ve bunları somut<br/> bir projede kullanmamıza olanak tanır. 
+             Bu sprintte tek sayfa uygulamalarını keşfettk. Sprint boyunca, <br/>
+             routing, formlar, ve cypress testlerini öğrendik. Bu sprint 
+             challenge'ında, aç yazılımcılara pizza getirmek için <br/>
+             tasarlanmış bir web sitesi olan Pizza sipariş uygulaması 
+             oluşturarak becerilerimizi  göstertermeye çalıştım.<br/>(cypress test hariç-Bazı eksikliklerim mevcut)
             </SCP>
             <div
               className="divler"
@@ -220,7 +213,7 @@ function Projects() {
                   paddingTop: "7px",
                 }}
               >
-                Redux
+                Formik
               </div>
               <div
                 style={{
@@ -250,7 +243,7 @@ function Projects() {
                   marginRight: "20px",
                 }}
               >
-                <a href="https://fs-web-s10-g1-reducer-j5xj.vercel.app/">
+                <a href="https://fs-web-s7-challenge-pizza-nu.vercel.app/">
                   View Site
                 </a>
               </div>
@@ -265,7 +258,7 @@ function Projects() {
                   marginRight: "20px",
                 }}
               >
-                <a href="https://github.com/sumeyyetuzuner17/fsweb-s10g1-reducer-calculator">
+                <a href="https://github.com/sumeyyetuzuner17/FSWeb-S7-Challenge">
                   Github
                 </a>
               </div>
