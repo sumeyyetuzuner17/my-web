@@ -9,6 +9,7 @@ const SCMorcivert = styled.div`
   margin-top: 0px;
  
   background: #4731d3;
+  
 `;
 const SCInfoImg = styled.div`
   display: flex;
@@ -22,10 +23,11 @@ const SCInfoImg = styled.div`
   height: 250.89px;
   left: 239px;
   margin-top: 130px;
+ 
 `;
 const SCImg = styled.img`
-  width: 250px;
-  height: 300.89px;
+  width: 240px;
+  height: 280.89px;
   background-repeat: no-repeat;
   /* YO */
 
@@ -42,6 +44,7 @@ const SCImg = styled.img`
 
 const SCKisaBilg = styled.div`
   margin-bottom: 30px;
+  
 `;
 
 const SCIsim = styled.div`
@@ -55,15 +58,18 @@ const SCIsim = styled.div`
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 72px;
+  /* @media (max-width: 550px) {
+    padding-left: 0px;
+  } */
 `;
 
 const SCBilgi1 = styled.div`
   font-family: monospace;
   color: #cbf281;
   font-style: bold;
-  font-size: 40px;
+  font-size: 26px;
   line-height: 59px;
   line-height: 110%;
 `;
@@ -74,7 +80,7 @@ const SCBilgi2 = styled.div`
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 29px;
   color: #ffffff;
 `;

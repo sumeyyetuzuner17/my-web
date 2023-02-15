@@ -6,7 +6,8 @@ const SCProfileDiv = styled.div`
   width: 1500px;
   height: 600px;
   @media (max-width: 550px) {
-    height: 1000.68px;
+    height: 700.68px;
+    text-align: center;
   }
 `;
 const SCInfoImgAbout = styled.div`
@@ -62,9 +63,10 @@ const SCAbout = styled.div`
   display: flex;
   flex-direction: column;
   @media (max-width: 550px) {
-    
+    display: none;
     padding-left: 0px;
     font-size: small;
+    
   }
 `;
 
@@ -75,6 +77,7 @@ const SCH2 = styled.h2`
 `;
 const SCInfo = styled.div`
   color: white;
+  
 `;
 
 function Profile() {

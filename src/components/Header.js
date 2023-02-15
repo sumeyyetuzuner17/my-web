@@ -5,7 +5,7 @@ const SCHeader = styled.header`
   display: flex;
   justify-content: space-between;
   background-color: #4731d3;
-
+  
   @media (max-width: 550px) {
     flex-direction: column;
     align-items: center;
@@ -48,10 +48,12 @@ const SCAhref = styled.a`
   color: white;
 `;
 const SCFullHeader = styled.div`
+
   padding: 0;
   margin: 0;
   list-style-type: none;
   background-color: #4fb99f;
+  
   overflow: auto;
   position: fixed;
   width: 100%;

@@ -26,6 +26,7 @@ const SCSkillDis = styled.div`
     flex-direction: column;
     height: 800px;
     margin-left: 140px;
+    text-align: center;
   }
 `;
 const SCPSkill = styled.p`
