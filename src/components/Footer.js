@@ -39,7 +39,8 @@ const SCIletisim = styled.div`
   display: flex;
   justify-content: center;
   background-color: white;
-  
+  text-align: center;
+
   @media (max-width: 550px) {
     flex-direction: column;
     align-items: center;
@@ -67,11 +68,11 @@ const SCYazi = styled.div`
   margin-bottom: 20px;
 `;
 
-const SCEnDis=styled.div`
- @media (max-width: 550px) {
-   text-align: center;
+const SCEnDis = styled.div`
+  @media (max-width: 550px) {
+    text-align: center;
   }
-`
+`;
 function Footer() {
   return (
     <SCEnDis className="endis">
@@ -101,7 +102,7 @@ function Footer() {
         </SCIletisimItem>
         <SCIletisimItem className="iletisimItem">
           <FaMapMarkerAlt size={30} color="#4169E1" />
-          <p>            
+          <p>
             Çanakkale
             <br /> Merkez, 17100
           </p>
@@ -109,10 +110,13 @@ function Footer() {
         <SCIletisimItem className="iletisimItem">
           <FaMailBulk size={30} color="#4169E1" />
           <p>
-          <a href="mailto:sumeyyedeniz34@gmail.com">sumeyyedeniz34@gmail.com</a>
+            <a href="mailto:sumeyyedeniz34@gmail.com">
+              sumeyyedeniz34@gmail.com
+            </a>
             <br />
-            <a href="mailto:sumeyyedeniz@windowslive.com">sumeyyedeniz@windowslive.com</a>
-           
+            <a href="mailto:sumeyyedeniz@windowslive.com">
+              sumeyyedeniz@windowslive.com
+            </a>
           </p>
         </SCIletisimItem>
       </SCIletisim>

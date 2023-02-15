@@ -7,11 +7,9 @@ const SCProjeler = styled.div`
   width: 1500px;
   margin-top: 2px;
 
-  @media (max-width: 550px) {    
+  @media (max-width: 550px) {
     height: 900px;
-    
   }
- 
 `;
 
 const SCProjeItem = styled.div`
@@ -19,8 +17,7 @@ const SCProjeItem = styled.div`
   /* align-self: center; */
 
   @media (max-width: 550px) {
-    flex-direction: column;  
-  
+    flex-direction: column;
   }
 `;
 
@@ -29,30 +26,29 @@ const SCImg = styled.img`
   height: 250px;
 
   @media (max-width: 550px) {
-    flex-direction: column;  
+    flex-direction: column;
     width: 205px;
-  height: 200px;
-
+    height: 200px;
   }
 `;
 
-const SCP=styled.p`
- @media (max-width: 550px) {
+const SCP = styled.p`
+  @media (max-width: 550px) {
     /* flex-direction: column;  
     font-size: small;
     text-align: start;
     width: 200px; */
     display: none;
   }
-
-`
-
-
+`;
 
 function Projects() {
   return (
     <SCProjeler className="projeler" id="projeler">
-      <div className="projeler1alti"  style={{ marginLeft: "200px", paddingTop: "100px" }}>
+      <div
+        className="projeler1alti"
+        style={{ marginLeft: "200px", paddingTop: "100px" }}
+      >
         <div
           className="baslik"
           style={{
@@ -137,12 +133,32 @@ function Projects() {
             </div>
 
             <div className="linkler" style={{ display: "flex" }}>
-              <div className="web" style={{color:"#120B39",fontStyle: "normal",fontWeight: "500px",fontSize: "16px",lineHeight: "16px",marginRight:"20px"}}>
+              <div
+                className="web"
+                style={{
+                  color: "#120B39",
+                  fontStyle: "normal",
+                  fontWeight: "500px",
+                  fontSize: "16px",
+                  lineHeight: "16px",
+                  marginRight: "20px",
+                }}
+              >
                 <a href="https://fs-web-s10-g1-reducer-j5xj.vercel.app/">
                   View Site
                 </a>
               </div>
-              <div className="github" style={{color:"#120B39",fontStyle: "normal",fontWeight: "500px",fontSize: "16px",lineHeight: "16px",marginRight:"20px"}}>
+              <div
+                className="github"
+                style={{
+                  color: "#120B39",
+                  fontStyle: "normal",
+                  fontWeight: "500px",
+                  fontSize: "16px",
+                  lineHeight: "16px",
+                  marginRight: "20px",
+                }}
+              >
                 <a href="https://github.com/sumeyyetuzuner17/fsweb-s10g1-reducer-calculator">
                   Github
                 </a>
@@ -150,7 +166,8 @@ function Projects() {
             </div>
           </div>
         </SCProjeItem>
-        <br/><br/>
+        <br />
+        <br />
         <SCProjeItem className="projeItem">
           <div className="projeImg">
             <SCImg
@@ -222,12 +239,32 @@ function Projects() {
             </div>
 
             <div className="linkler" style={{ display: "flex" }}>
-              <div className="web" style={{color:"#120B39",fontStyle: "normal",fontWeight: "500px",fontSize: "16px",lineHeight: "16px",marginRight:"20px"}}>
+              <div
+                className="web"
+                style={{
+                  color: "#120B39",
+                  fontStyle: "normal",
+                  fontWeight: "500px",
+                  fontSize: "16px",
+                  lineHeight: "16px",
+                  marginRight: "20px",
+                }}
+              >
                 <a href="https://fs-web-s10-g1-reducer-j5xj.vercel.app/">
                   View Site
                 </a>
               </div>
-              <div className="github" style={{color:"#120B39",fontStyle: "normal",fontWeight: "500px",fontSize: "16px",lineHeight: "16px",marginRight:"20px"}}>
+              <div
+                className="github"
+                style={{
+                  color: "#120B39",
+                  fontStyle: "normal",
+                  fontWeight: "500px",
+                  fontSize: "16px",
+                  lineHeight: "16px",
+                  marginRight: "20px",
+                }}
+              >
                 <a href="https://github.com/sumeyyetuzuner17/fsweb-s10g1-reducer-calculator">
                   Github
                 </a>
@@ -236,7 +273,6 @@ function Projects() {
           </div>
         </SCProjeItem>
       </div>
-      
     </SCProjeler>
   );
 }

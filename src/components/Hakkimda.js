@@ -4,14 +4,11 @@ import styled from "styled-components";
 const SCMorcivert = styled.div`
   position: absolute;
   width: 1040px;
-  height: 450px;
+  height: 500px;
   margin-left: 0px;
   margin-top: 0px;
-
+ 
   background: #4731d3;
- 
-
- 
 `;
 const SCInfoImg = styled.div`
   display: flex;
@@ -25,7 +22,6 @@ const SCInfoImg = styled.div`
   height: 250.89px;
   left: 239px;
   margin-top: 130px;
- 
 `;
 const SCImg = styled.img`
   width: 250px;
@@ -45,10 +41,8 @@ const SCImg = styled.img`
 `;
 
 const SCKisaBilg = styled.div`
-margin-bottom: 30px;
-
+  margin-bottom: 30px;
 `;
-
 
 const SCIsim = styled.div`
   color: #cbf281;
@@ -85,18 +79,16 @@ const SCBilgi2 = styled.div`
   color: #ffffff;
 `;
 const SCYesil = styled.div`
- background-color: #cbf281; 
+  background-color: #cbf281;
   width: 540px;
-  height: 450px;
+  height: 500px;
   margin-left: 994px;
   margin-top: 0px;
   justify-content: end;
 `;
-const SCIkili=styled.div`
-display: flex;
-
-`
-
+const SCIkili = styled.div`
+  display: flex;
+`;
 
 function Hakkimda() {
   return (
@@ -106,25 +98,24 @@ function Hakkimda() {
         <SCInfoImg className="infoImg">
           <SCKisaBilg className="kisaBilg">
             <SCBilgi1>
-              
               <p>
                 Bilgisayar Mühendisi
                 <br /> Frontend Developer...
               </p>
             </SCBilgi1>
             <SCBilgi2>
-              
               Workintech Eğitim kurumundan <br />
               Frontend Developer eğitimimi tamamlamış bulunmaktayım
             </SCBilgi2>
           </SCKisaBilg>
 
-          <SCImg className="Img" src="https://media.licdn.com/dms/image/C4D03AQG8XDW4D2BrNA/profile-displayphoto-shrink_200_200/0/1652622538544?e=1680739200&v=beta&t=xCLn5AEHLi0PNjJSRF_lUVaF-Q1wrowcftyyxdZh97s"></SCImg>
+          <SCImg
+            className="Img"
+            src="https://media.licdn.com/dms/image/C4D03AQG8XDW4D2BrNA/profile-displayphoto-shrink_200_200/0/1652622538544?e=1680739200&v=beta&t=xCLn5AEHLi0PNjJSRF_lUVaF-Q1wrowcftyyxdZh97s"
+          ></SCImg>
         </SCInfoImg>
       </SCMorcivert>
-      <SCYesil className="yesil">
-        
-      </SCYesil>
+      <SCYesil className="yesil"></SCYesil>
     </SCIkili>
   );
 }

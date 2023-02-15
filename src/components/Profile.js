@@ -6,8 +6,7 @@ const SCProfileDiv = styled.div`
   width: 1500px;
   height: 600px;
   @media (max-width: 550px) {
-            
-  height: 1000.68px;
+    height: 1000.68px;
   }
 `;
 const SCInfoImgAbout = styled.div`
@@ -23,14 +22,13 @@ const SCInfoImgAbout = styled.div`
   margin-left: 240px;
   margin-top: 10px;
   @media (max-width: 550px) {
-    
-    flex-direction:column;
+    flex-direction: column;
     height: 800px;
     margin-left: 0px;
     gap: 0px;
     width: 475px;
-  height: 200.68px;
-  font-size: small;
+    height: 200.68px;
+    font-size: small;
   }
 `;
 
@@ -53,9 +51,7 @@ const SCImg = styled.img`
 
   @media (max-width: 550px) {
     width: 200px;
-  height: 180.68px;
-    
-   
+    height: 180.68px;
   }
 `;
 
@@ -64,28 +60,28 @@ const SCAbout = styled.div`
   margin-left: 45px;
   color: white;
   display: flex;
+  flex-direction: column;
   @media (max-width: 550px) {
-   padding-left: 0px;
-   font-size: small;
+    
+    padding-left: 0px;
+    font-size: small;
   }
 `;
 
-const SCH2=styled.h2`
-@media (max-width: 550px) {
-   padding-left: 0px;
-   
+const SCH2 = styled.h2`
+  @media (max-width: 550px) {
+    padding-left: 0px;
   }
-`
-const SCInfo=styled.div`
-color: white;
-
-`
-
+`;
+const SCInfo = styled.div`
+  color: white;
+`;
 
 function Profile() {
   return (
     <SCProfileDiv>
-      <SCH2 id="profil"
+      <SCH2
+        id="profil"
         style={{
           paddingLeft: "245px",
           paddingTop: "85px",

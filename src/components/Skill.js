@@ -18,7 +18,7 @@ const SCSkillDis = styled.div`
   background-color: white;
 
   width: 960px;
-  height: 450px;
+  height: 500px;
   margin-left: 239px;
   margin-top: 20px;
 
@@ -104,11 +104,11 @@ function Skill() {
             React
           </SCIkonItem>
           <SCIkonItem className="html">
-            <FaHtml5 size={65} />
+            <FaHtml5 size={65} color="red"/>
             Html5
           </SCIkonItem>
           <SCIkonItem className="css">
-            <FaCss3Alt size={65} />
+            <FaCss3Alt size={65} color="blue"/>
             CSS3
           </SCIkonItem>
         </SCIkonlar1>
@@ -122,7 +122,7 @@ function Skill() {
             Figma
           </SCIkonItem>
           <SCIkonItem className="node">
-            <FaNode size={65} />
+            <FaNode size={65} color="green"/>
             Node.js
           </SCIkonItem>
         </SCIkonlar2>
