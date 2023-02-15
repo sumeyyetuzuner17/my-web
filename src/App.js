@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-// import FirstPart from "./components/FirstPart";
+import FirstPart from "./components/FirstPart";
 // import { Route,Switch } from 'react-router-dom';
 import Footer from "./components/Footer";
 import Hakkimda from "./components/Hakkimda";

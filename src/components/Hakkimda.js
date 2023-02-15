@@ -7,9 +7,8 @@ const SCMorcivert = styled.div`
   height: 500px;
   margin-left: 0px;
   margin-top: 0px;
- 
+
   background: #4731d3;
-  
 `;
 const SCInfoImg = styled.div`
   display: flex;
@@ -18,33 +17,24 @@ const SCInfoImg = styled.div`
   padding: 0px;
   gap: 83px;
 
-  position: absolute;
   width: 600px;
   height: 250.89px;
-  left: 239px;
+  margin-left: 239px;
   margin-top: 130px;
- 
 `;
 const SCImg = styled.img`
-  width: 240px;
-  height: 280.89px;
   background-repeat: no-repeat;
-  /* YO */
+  margin-left: 60px;
 
-  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
-    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
   border-radius: 18px;
-
-  /* Inside auto layout */
-
+/* 
   flex: none;
   order: 1;
-  flex-grow: 0;
+  flex-grow: 0; */
 `;
 
 const SCKisaBilg = styled.div`
   margin-bottom: 30px;
-  
 `;
 
 const SCIsim = styled.div`
