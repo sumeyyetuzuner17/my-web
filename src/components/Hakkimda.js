@@ -12,7 +12,7 @@ const SCMorcivert = styled.div`
 `;
 const SCInfoImg = styled.div`
   display: flex;
-  flex-direction: row;
+  
   align-items: center;
   padding: 0px;
   gap: 83px;
@@ -23,9 +23,8 @@ const SCInfoImg = styled.div`
   margin-top: 130px;
 `;
 const SCImg = styled.img`
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   margin-left: 60px;
-
   border-radius: 18px;
 /* 
   flex: none;
@@ -42,7 +41,7 @@ const SCIsim = styled.div`
   position: absolute;
   width: 960px;
   height: 72px;
-  left: 239px;
+  margin-left: 239px;
   margin-top: 37px;
 
   font-family: "Inter";
@@ -88,7 +87,7 @@ const SCIkili = styled.div`
 
 function Hakkimda() {
   return (
-    <SCIkili className="ikili">
+    <SCIkili className="ikili" id="anasayfa">
       <SCMorcivert className="morcivert">
         <SCIsim className="isim">SÜMEYYE TÜZÜNER</SCIsim>
         <SCInfoImg className="infoImg">

@@ -1,277 +1,115 @@
 import React from "react";
 import styled from "styled-components";
 
-const SCProjeler = styled.div`
-  background-color: #cbf281;
-  height: 800px;
+const SCProfileDiv = styled.div`
+  background-color: #4731d3;
   width: 1500px;
-  margin-top: 2px;
+  height: 600px;
   @media (max-width: 550px) {
-    height: 900px;
+            
+  height: 1000.68px;
   }
 `;
-
-const SCProjeItem = styled.div`
+const SCInfoImgAbout = styled.div`
   display: flex;
-  /* align-self: center; */
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  /* position: absolute; */
+  width: 960px;
+  height: 290.68px;
+  margin-left: 240px;
+  margin-top: 10px;
+  color:white;
   @media (max-width: 550px) {
-    flex-direction: column;
+    
+    flex-direction:column;
+    height: 800px;
+    margin-left: 0px;
+    gap: 0px;
+    width: 475px;
+    height: 200.68px;
   }
 `;
 
 const SCImg = styled.img`
-  width: 265px;
-  height: 250px;
-  @media (max-width: 550px) {
-    flex-direction: column;
-    width: 205px;
-    height: 200px;
-  }
+  width: 220px;
+  height: 250.68px;
+  margin-top: 30px;
+  margin-left: 35px;
+  
+  /* YO */
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  border-radius: 18px;
+  /* Inside auto layout */
+  /* flex: none; */
+  /* order: 1;
+  flex-grow: 0; */
+`;
+const SCAbout = styled.div`
+  margin-top: 10px;
+  margin-left: 45px;
+  color: white;
+  display: flex;
+  flex-direction: column;
 `;
 
-const SCP = styled.p`
-  @media (max-width: 550px) {
-    /* flex-direction: column;  
-    font-size: small;
-    text-align: start;
-    width: 200px; */
-    display: none;
-  }
-`;
-
-function Projects() {
+function Profile() {
   return (
-    <SCProjeler className="projeler" id="projeler">
-      <div
-        className="projeler1alti"
-        style={{ marginLeft: "200px", paddingTop: "100px" }}
+    <SCProfileDiv>
+      <h2 id="profil"
+        style={{
+          paddingLeft: "245px",
+          paddingTop: "85px",
+          color: "#CBF281",
+          fontWeight: "700",
+          fontSize: "48px",
+          lineHeight: "100%",
+        }}
       >
-        <div
-          className="baslik"
-          style={{
-            color: "#4731D3",
-            fontWeight: "700",
-            fontSize: "48px",
-            lineHeight: "100%",
-            marginBottom: "20px",
-          }}
-        >
-          Projects
+        Profile
+      </h2>
+      <SCInfoImgAbout className="infoImgAbout" style={{ display: "flex" }}>
+        <div className="info" style={{ marginTop: "10px" }}>
+          <h3>Basic Information</h3>
+          <p>Doğum Tarihi: 14.11.1991</p>
+          <p>İkamet Şehri: Çanakkale</p>
+          <p style={{ display: "flex" }}>
+            Eğitim Durumu:
+            <div>
+              İstanbul Aydın Üniv., <br />
+              Computer Enginnering
+              <br />
+              Lisans,2016
+            </div>
+          </p>
+          <p style={{ display: "flex" }}>
+            Tercih Ettiği Rol : <div>Frontend Developer</div>
+          </p>
         </div>
-
-        <SCProjeItem className="projeItem">
-          <div className="projeImg">
-            <SCImg
-              src="https://github.com/sumeyyetuzuner17/fsweb-s10g1-reducer-calculator/raw/main/proje-hedefi.gif"
-              alt=""
-            />
-          </div>
-          <div className="projeDesc" style={{ paddingLeft: "20px" }}>
-            <p>WORKINTECH</p>
-            <SCP>
-              Bu projede, sayıları herhangi bir sırayla toplayabilen, çarpabilen
-              ve çıkartabilen,ayrıca
-              <br />
-              hafızaya kaydetme ve callback özellikleri ekleyebilen basit bir
-              hesap makinesi uygulaması <br />
-              oluşturulmuştur. Koda eksik parçaları ekleyerek başlayıp ve UI,
-              reducer ve event dosyalarında <br />
-              sıfırdan özellikler oluşturarak proje tamamlanmak üzeredir. Bu
-              hesap makinesi bildiklerimizden <br />
-              biraz farklı. Her yeni hesaplamasında önceki hesabın sonucunu ve
-              yeni bir sayıyı parametre olarak almaktadır.
-            </SCP>
-            <div
-              className="divler"
-              style={{ display: "flex", padding: " 8px 18px 9px", gap: "10px" }}
-            >
-              <div
-                style={{
-                  backgroundColor: "#4731D3",
-                  borderRadius: "20px",
-                  color: "white",
-                  fontSize: "14px",
-                  width: "60px",
-                  height: "30px",
-                  textAlign: "center",
-                  paddingTop: "7px",
-                }}
-              >
-                React
-              </div>
-              <div
-                style={{
-                  backgroundColor: "#4731D3",
-                  borderRadius: "20px",
-                  color: "white",
-                  fontSize: "14px",
-                  width: "60px",
-                  height: "30px",
-                  textAlign: "center",
-                  paddingTop: "7px",
-                }}
-              >
-                Redux
-              </div>
-              <div
-                style={{
-                  backgroundColor: "#4731D3",
-                  borderRadius: "20px",
-                  color: "white",
-                  fontSize: "14px",
-                  width: "60px",
-                  height: "30px",
-                  textAlign: "center",
-                  paddingTop: "7px",
-                }}
-              >
-                Vercel
-              </div>
-            </div>
-
-            <div className="linkler" style={{ display: "flex" }}>
-              <div
-                className="web"
-                style={{
-                  color: "#120B39",
-                  fontStyle: "normal",
-                  fontWeight: "500px",
-                  fontSize: "16px",
-                  lineHeight: "16px",
-                  marginRight: "20px",
-                }}
-              >
-                <a href="https://fs-web-s10-g1-reducer-j5xj.vercel.app/">
-                  View Site
-                </a>
-              </div>
-              <div
-                className="github"
-                style={{
-                  color: "#120B39",
-                  fontStyle: "normal",
-                  fontWeight: "500px",
-                  fontSize: "16px",
-                  lineHeight: "16px",
-                  marginRight: "20px",
-                }}
-              >
-                <a href="https://github.com/sumeyyetuzuner17/fsweb-s10g1-reducer-calculator">
-                  Github
-                </a>
-              </div>
-            </div>
-          </div>
-        </SCProjeItem>
-        <br />
-        <br />
-        <SCProjeItem className="projeItem">
-          <div className="projeImg">
-            <SCImg
-              src="https://github.com/sumeyyetuzuner17/fsweb-s10g1-reducer-calculator/raw/main/proje-hedefi.gif"
-              alt=""
-            />
-          </div>
-          <div className="projeDesc" style={{ paddingLeft: "20px" }}>
-            <p>WORKINTECH</p>
-            <SCP>
-              Bu projede, sayıları herhangi bir sırayla toplayabilen, çarpabilen
-              ve çıkartabilen,ayrıca
-              <br />
-              hafızaya kaydetme ve callback özellikleri ekleyebilen basit bir
-              hesap makinesi uygulaması <br />
-              oluşturulmuştur. Koda eksik parçaları ekleyerek başlayıp ve UI,
-              reducer ve event dosyalarında <br />
-              sıfırdan özellikler oluşturarak proje tamamlanmak üzeredir. Bu
-              hesap makinesi bildiklerimizden <br />
-              biraz farklı. Her yeni hesaplamasında önceki hesabın sonucunu ve
-              yeni bir sayıyı parametre olarak almaktadır.
-            </SCP>
-            <div
-              className="divler"
-              style={{ display: "flex", padding: " 8px 18px 9px", gap: "10px" }}
-            >
-              <div
-                style={{
-                  backgroundColor: "#4731D3",
-                  borderRadius: "20px",
-                  color: "white",
-                  fontSize: "14px",
-                  width: "60px",
-                  height: "30px",
-                  textAlign: "center",
-                  paddingTop: "7px",
-                }}
-              >
-                React
-              </div>
-              <div
-                style={{
-                  backgroundColor: "#4731D3",
-                  borderRadius: "20px",
-                  color: "white",
-                  fontSize: "14px",
-                  width: "60px",
-                  height: "30px",
-                  textAlign: "center",
-                  paddingTop: "7px",
-                }}
-              >
-                Redux
-              </div>
-              <div
-                style={{
-                  backgroundColor: "#4731D3",
-                  borderRadius: "20px",
-                  color: "white",
-                  fontSize: "14px",
-                  width: "60px",
-                  height: "30px",
-                  textAlign: "center",
-                  paddingTop: "7px",
-                }}
-              >
-                Vercel
-              </div>
-            </div>
-
-            <div className="linkler" style={{ display: "flex" }}>
-              <div
-                className="web"
-                style={{
-                  color: "#120B39",
-                  fontStyle: "normal",
-                  fontWeight: "500px",
-                  fontSize: "16px",
-                  lineHeight: "16px",
-                  marginRight: "20px",
-                }}
-              >
-                <a href="https://fs-web-s10-g1-reducer-j5xj.vercel.app/">
-                  View Site
-                </a>
-              </div>
-              <div
-                className="github"
-                style={{
-                  color: "#120B39",
-                  fontStyle: "normal",
-                  fontWeight: "500px",
-                  fontSize: "16px",
-                  lineHeight: "16px",
-                  marginRight: "20px",
-                }}
-              >
-                <a href="https://github.com/sumeyyetuzuner17/fsweb-s10g1-reducer-calculator">
-                  Github
-                </a>
-              </div>
-            </div>
-          </div>
-        </SCProjeItem>
-      </div>
-    </SCProjeler>
+        
+          <SCImg
+            src="https://scontent.fsaw1-14.fna.fbcdn.net/v/t1.18169-9/945597_4947817585463_1845554503_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=de6eea&_nc_ohc=Ag19HuPOhEMAX-UuUw3&_nc_ht=scontent.fsaw1-14.fna&oh=00_AfCn2nAJIk91f3Fw3Vxb-bNULbct7QltBYiNPl-HnpnwHg&oe=640C4F29"
+            alt=""
+          ></SCImg>
+        
+        <SCAbout className="about">
+          <h3>About Me</h3>
+          <p>
+            2016 Bilgisayar Mühendisliği mezunuyum. <br />
+            Sonrasında İş Sağlığı ve Güvenliği alanında yüksek <br />
+            lisans yapıp B Sınıfı İş Güvenliği uzmanı olarak 3 yıl görev yaptım.
+            <br />
+            <br />
+            Daha sonra yazılım alanında olmak istediğimi farkedip Workintech
+            eğitimin <br />
+            kurumundan eğitim aldım. Full stack developer eğitimimi almaktayım.
+          </p>
+        </SCAbout>
+      </SCInfoImgAbout>
+    </SCProfileDiv>
   );
 }
-
-export default Projects;
+export default Profile;
