@@ -50,7 +50,7 @@ const SCFullHeader = styled.div`
   background-color: #4fb99f;
 
   position: fixed;
-  width: 1500px;
+  width: 100%;
 `;
 
 function Header() {

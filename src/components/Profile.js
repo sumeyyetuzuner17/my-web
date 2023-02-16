@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const SCProfileDiv = styled.div`
   background-color: #4731d3;
-  width: 1500px;
+  width: 100%;
   height: 600px;
   @media (max-width: 550px) {
             

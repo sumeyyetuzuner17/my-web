@@ -4,7 +4,7 @@ import styled from "styled-components";
 const SCProjeler = styled.div`
   background-color: #cbf281;
   height: 800px;
-  width: 1500px;
+  width: 100%;
   margin-top: 2px;
 
   @media (max-width: 550px) {
