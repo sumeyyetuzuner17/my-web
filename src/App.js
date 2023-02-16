@@ -7,7 +7,7 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skill from "./components/Skill";
 import Whatsapp from "./components/Whatsapp";
-// import FirstPart from "./components/FirstPart";
+
 
 const SCAllPage =styled.div`
   
@@ -23,8 +23,7 @@ function App() {
       <Header />
       <br />
       <br />
-      <br />      
-      {/* <FirstPart /> */}
+      <br />            
       <Hakkimda />
       <br />
       <br />
