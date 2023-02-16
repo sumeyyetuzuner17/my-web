@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skill from "./components/Skill";
+import Whatsapp from "./components/Whatsapp";
 // import FirstPart from "./components/FirstPart";
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Profile />
       <Projects />
       <Footer />
+      <Whatsapp/>
     </div>
   );
 }
