@@ -32,7 +32,7 @@ const SCSkillDis = styled.div`
 const SCPSkill = styled.p`
   width: 100px;
   height: 30px;
-
+  margin-top: 90px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -44,11 +44,6 @@ const SCPSkill = styled.p`
 
   color: #4832d3;
 
-  /* Inside auto layout */
-
-  /* flex: none;
-  order: 0;
-  flex-grow: 0; */
 
   @media (max-width: 550px) {
     /* font-size: 28px;
@@ -68,7 +63,7 @@ const SCIkonlar = styled.div`
   }
 `;
 const SCIkonlar1 = styled.div`
-  margin-top: 55px;
+  margin-top: 65px;
   margin-right: 25px;
   @media (max-width: 550px) {
     display: flex;
@@ -78,7 +73,7 @@ const SCIkonlar1 = styled.div`
 
 const SCIkonlar2 = styled.div`
   margin-left: 25px;
-  margin-top: 55px;
+  margin-top: 65px;
   @media (max-width: 550px) {
     display: flex;
     width: 25px;

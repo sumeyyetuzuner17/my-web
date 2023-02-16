@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import Footer from "./components/Footer";
 import Hakkimda from "./components/Hakkimda";
 import Header from "./components/Header";
@@ -7,9 +8,18 @@ import Projects from "./components/Projects";
 import Skill from "./components/Skill";
 import Whatsapp from "./components/Whatsapp";
 // import FirstPart from "./components/FirstPart";
+
+const SCAllPage =styled.div`
+  
+  @media (max-width: 550px) {
+    flex-direction:column;
+  }
+`
+
+
 function App() {
   return (
-    <div className="allPage">
+    <SCAllPage className="allPage">
       <Header />
       <br />
       <br />
@@ -23,7 +33,7 @@ function App() {
       <Projects />
       <Footer />
       <Whatsapp/>
-    </div>
+    </SCAllPage>
   );
 }
 
