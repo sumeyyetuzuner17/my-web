@@ -70,7 +70,7 @@ function Profile() {
         }}
       >
         Profile
-      </h2>
+      </h2><br/><br/>
       <SCInfoImgAbout className="infoImgAbout" style={{ display: "flex" }}>
         <div className="info" style={{ marginTop: "10px" }}>
           <h3>Basic Information</h3>

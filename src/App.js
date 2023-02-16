@@ -13,10 +13,10 @@ function App() {
       <Header />
       <br />
       <br />
-      <br />
-      <br />
+      <br />      
       {/* <FirstPart /> */}
       <Hakkimda />
+      <br />
       <br />
       <Skill />    
       <Profile />
